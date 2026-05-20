@@ -6,6 +6,6 @@ test("login module",async({page})=>{
     await page.locator('#password').fill('secret_sauce')
     await page.locator('#login-button').click()
 
-    // team member 2 - 2 // team member 1 - 1
-
+    // team member 1 - 1(first)
+    // team member 2 - 2
 })
